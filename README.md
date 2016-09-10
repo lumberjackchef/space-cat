@@ -1,5 +1,5 @@
 # SpaceCat
-Javascript object for performing ajax POST and GET requests.
+Javascript object for performing Ajax GET and POST requests.
 
 
 
