@@ -1,5 +1,5 @@
 # SpaceCat
-Javascript object for performing Ajax GET and POST requests.
+A performant Javascript object that provides an Ajax framework.
 
 
 
@@ -32,12 +32,13 @@ Javascript object for performing Ajax GET and POST requests.
   url: 'Request Url'
 ```
 
+### Optional Arguments
+
 ##### type:
 ```js
-  type: 'GET or POST'
+  type: 'POST'
 ```
-
-### Optional Arguments
+Defaults to GET.
 
 ##### data:
 ```js
