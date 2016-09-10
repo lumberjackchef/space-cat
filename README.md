@@ -32,13 +32,13 @@ A performant Javascript object that provides an Ajax framework.
   url: 'Request Url'
 ```
 
-### Optional Arguments
-
 ##### type:
 ```js
   type: 'POST'
 ```
-Defaults to GET.
+Set to GET or POST. Can be set to other methods if the host allows them.
+
+### Optional Arguments
 
 ##### data:
 ```js
