@@ -11,11 +11,7 @@
 var SpaceCat = function(){};
 
 // Config
-SpaceCat.prototype.config = {
-  type: 'GET',
-  method: true,
-  debugLog: false
-};
+SpaceCat.prototype.config = {};
 
 // adds ajax medthod to SpaceCat.prototype
 SpaceCat.prototype.ajax = function(){
@@ -38,6 +34,9 @@ SpaceCat.prototype.ajax = function(){
 
   // User error handling
   config.url || config.debugLog == true && console.log("No Url!");
+  config.type || config.debugLog == true && console.log("No Default type (GET/POST) given!");
+  config.method |= true;
+  config.debugLog |= false;
 
   // xmlhttp
   xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
