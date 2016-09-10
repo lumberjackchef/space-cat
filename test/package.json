@@ -1,0 +1,25 @@
+{
+  "name": "ajax-obj",
+  "version": "0.0.1",
+  "description": "A fast ajax library written in pure javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumberjackchef/space-cat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lumberjackchef/space-cat/issues"
+  },
+  "homepage": "https://github.com/lumberjackchef/space-cat#readme",
+  "author": "Ryan Pearson <ryan@ryanpearson.net> (http://www.ryanpearson.net)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
