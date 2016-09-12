@@ -1,3 +1,5 @@
+![Space Cats!](http://67.media.tumblr.com/tumblr_lvd04fHurN1r4xjo2o1_250.jpg "Space Cats!")
+
 # SpaceCat
 A performant Javascript object that provides an Ajax framework.
 
